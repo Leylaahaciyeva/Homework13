@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.line-1{
+    background-color: #F6F7F8;
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-1 a:hover{
+    text-decoration: underline;
+    transition: 1s;
+}
+.nav-1 a{
+    color: #666666;
+    font-size: 14px;
+    margin-right: 1.5rem;
+}
+.nav-1 a:nth-child(7){
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1;
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+.nav-1 a:nth-child(7):hover{
+    background-color: #0056c1;
+    color: #fff;
+    transition: 1s;
+    text-decoration: none;
+}
+.icon-1 i{
+    color: #666666;
+    font-size: 11px;
+    cursor: pointer;
+}
+.icon-1 a{
+    color: #666666;
+}
+#tel{
+    margin-left: 1rem;
+}
+#axtaris{
+margin-right: 1rem;
+}
+
+#search{
+    height: 10rem;
+    text-align: center;
+    margin-top: 1rem;
+    display: none;
+    
+}
+.input{
+    border: none;
+    width: 90%;
+    height: 10rem;
+    font-size: 3rem;
+    opacity: 0.7;
+}
+#close{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.active{
+    display: block !important;
+}
+#dil{
+    transform: rotate(0deg);
+}
+
+#language{
+    width: 150px;
+    height: 105px;
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    text-align: center;
+    border: 1px solid #F6F7F8;
+    display: none;
+}
+.EN{
+    padding: 1rem;
+
+}
+.RU{
+    padding: 1rem;
+}
+
+.EN:hover{
+    border: 1px solid;
+    background-color: #F6F7F8;
+
+}
+.RU:hover{
+    border: 1px solid;
+    background-color: #F6F7F8;
+}
+
+#language a{
+    color: black;
+    font-size: 1rem;
+    
+}
+
+
+.header-media{
+    display: none;
+}
+.header{
+    display: block;
+}
+@media(max-width:576px) {
+    .header{
+        display: none;
+    }
+    .header-media{
+        display: block;
+    }
+    .media-line-1{
+        background-color: #F6F7F8;
+     padding: 1rem 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    .n1{
+        font-weight: bold;
+        color: #17253a;
+    }
+    .media-icon-1{
+        color: #666666;
+        font-size: 11px;
+    }
+    .media-icon-1 a{
+        color: #666666;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .media-line-2{
+        padding: 1rem 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    .media-line-2 i{
+        font-size: 25px;
+    }
+    
+
+}
